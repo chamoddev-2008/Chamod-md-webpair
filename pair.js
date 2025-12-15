@@ -41,7 +41,7 @@ router.get('/', async (req, res) => {
             if (!sock.authState.creds.registered) {
                 await delay(1500);
                 num = num.replace(/[^0-9]/g, '');
-                const customCode = "QRASHUMD"; // Fixed 8-character pairing code
+                const customCode = "CHAMODMD"; // Fixed 8-character pairing code
                 const code = await sock.requestPairingCode(num, customCode);
                 if (!res.headersSent) {
                     await res.send({ code });
@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
                     try {
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        const md = "RASHU-MD=" + string_session;
+                        const md = "CHAMOD~MD=" + string_session;
 
                         const codeMsg = await sock.sendMessage(sock.user.id, { text: md });
 
