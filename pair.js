@@ -64,7 +64,7 @@ router.get('/', async (req, res) => {
 
                         const codeMsg = await sock.sendMessage(sock.user.id, { text: md });
 
-                        const desc = `*🪄 𝐐𝐔𝐄𝐄𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃 New Update.....💐*
+                        const desc = `*🧚 𝗖𝗛𝗔𝗠𝗢𝗗-𝗠𝗗 𝐕 1.0.0 🧚 New Update.....🇦🇴*
                         
 * SESION SUCCESSFUL ✅
                         
@@ -72,23 +72,23 @@ router.get('/', async (req, res) => {
                         
 + ┉┉┉┉┉┉┉┉[ ❤️‍🩹 ]┉┉┉┉┉┉┉┉ +
 *❗𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐆𝐑𝐎𝐔𝐏*
-* https://chat.whatsapp.com/GGwN8bjWtCDKrm7kuNCcnd
+* https://chat.whatsapp.com/HsGBHJlfds4IyH1jKgdQ0V?mode=hqrt2
                         
 *❗𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
-* https://whatsapp.com/channel/0029VaicB1MISTkGyQ7Bqe23
+* https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w
                         
 *❗𝐑𝐀𝐒𝐇𝐔 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
-* wa.me/94727319036
+* https://wa.me/+94761480834/?text=💙🅷🅴🆈_🅲🅷🅰🅼🅾🅳_🅳🅴🆅💙
                 
-> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝐐𝐔𝐄𝐄𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃 𝙾𝙵𝙲 🫟`;
+> 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 𝐂𝐇𝐀𝐌𝐎𝐃 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 💙`;
 
                         await sock.sendMessage(sock.user.id, {
                             text: desc,
                             contextInfo: {
                                 externalAdReply: {
-                                    title: "QUEEN-RASHU-MD",
-                                    thumbnailUrl: "https://files.catbox.moe/l74kdf.jpg",
-                                    sourceUrl: "https://whatsapp.com/channel/0029VaicB1MISTkGyQ7Bqe23",
+                                    title: "CHAMOD-MD",
+                                    thumbnailUrl: "https://i.ibb.co/7Jb04K7P/tourl-1765562658810.jpg",
+                                    sourceUrl: "https://whatsapp.com/channel/0029Vb6xMopEQIapiWyp4L1w",
                                     mediaType: 1,
                                     renderLargerThumbnail: true
                                 }
